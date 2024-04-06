@@ -73,21 +73,36 @@ body.fotos #navegacao a#fotos {
     margin-top: 60PX;
     background: #f5f5f5;
 }
-#primario{
-    width: 270px;
-    background: blue;
-    float: left;
-}
-#secundario{
-    width: 270px;
-    background: green;
-    float: left;
-}
 #lateral{
     width: 180px;
     background: yellow;
     float: left;
+    margin: 0 0 20px -750px;
 }
+#primario{
+    width: 270px;
+    background: blue;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+  
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 270px;
+    background: green;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
 
 /* Configuração do rodape*/
 
@@ -100,4 +115,5 @@ body.fotos #navegacao a#fotos {
     width: 750px;
     margin: 0 auto;
     color: #fff;
+    text-align: center;
 }
