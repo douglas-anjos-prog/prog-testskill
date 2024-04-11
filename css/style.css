@@ -68,6 +68,7 @@ body.fotos #navegacao a#fotos {
     background: #de003e;
     cursor: text;
 }
+
 /* Configura leyout de trÊs colunas*/
 #conteudo{
     margin-top: 60PX;
@@ -80,15 +81,12 @@ body.fotos #navegacao a#fotos {
 }
 #primario{
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
 
 #duas-colunas #primario{
-    width: 555px;
-  
-}
+    width: 555px;}
 
 #uma-coluna #primario{
     width: 750px;
@@ -97,18 +95,10 @@ body.fotos #navegacao a#fotos {
 
 #secundario{
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
 
-
-/* Configuração do rodape*/
-
-#container-rodape{
-    background: #294c71;
-    padding: 20px;
-}
 /* Caixa */
 
 .caixa{
@@ -127,6 +117,20 @@ h2{
     padding: 5px;
     margin-top: 5px 0 ;
 }
+#botao-conteudo{
+    border-radius: 15px;
+    text-align: center;
+}
+#botao-conteudo:hover {
+    color: #fff;
+    background-color: #294c71;
+    font-weight: bold;
+}
+.email-conteudo{
+    border-radius: 15px;
+    margin: 1px 0 5px 0;
+}
+
 /*Formantando a lateral*/
 #lateral ul a{
     font-size: 0.9em;
@@ -157,18 +161,40 @@ input{
 input .submit {
     width: 80px;
     color: #fff;
-    background: #c70239;
-    border:  2px solid #870529;
-
 }
-#botao-conteudo{
-    border-radius: 15px;
+
+/* FORMATANDO IMAGENS*/
+img {
+    border: 2px solid #dfdfdf;
+}
+img .imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*FORMATANDO CABEÇALHOS*/
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #b10333;
+    color: #fff;
 }
 
 /* Rodape*/
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
 
 #rodape{
-    width: 100%;
     margin: 0 auto;
     color: #fff;
     text-align: center;
