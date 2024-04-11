@@ -6,8 +6,9 @@
 		<!-- Estilo customizado-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<body class="brasil">
-		<div id="container">
+	<body id="duas-colunas" class="brasil">
+		<div class="container">
+			<!-- Início da Configuração topo -->
 			<div id="topo">
 				<h1 class="logo">Notícias cidade</h1>
 				<ul id="navegacao">
@@ -34,7 +35,101 @@
 					</li>
 				</ul>
 			</div>
+			<!-- Fim configuração topo -->
+			<!-- Início do conteudo -->
+			<div id="brasil-conteudo">
+				<!-- Início do conteudo primario -->
+				<div id="primario">
+
+					<div class="caixa destaque">
+						<h2>Destaque</h2>
+						<div class="caixa-conteudo">
+							<h3>Nova Legislação</h3>
+							<img class="imagem-principal" src="imagens/taxi.jpg" width="100%">
+							<p>
+								Lorem ipsum dolor site amet,
+								consectetur adipsicing elit.
+							</p>
+							<a href="#">Leia mais!</a>
+						</div>
+					</div>
+
+					<div class="caixa">
+						<h2>Mundo</h2>
+						<div class="caixa-conteudo">
+							<ul id="lista-noticias">
+								<li><a href="#">
+										<img src="imagens/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias</h3>
+										<p>Lorem ipsum dolor site amet, consectetur adipsicing elit.</p>
+									</a>
+								</li>
+								<li><a href="#">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor site amet, consectetur adipsicing elit.</p>
+								</a>
+								</li>
+								<li><a href="#">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor site amet, consectetur adipsicing elit.</p>
+								</a>
+								</li>
+								<li><a href="#">
+									<img src="imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum dolor site amet, consectetur adipsicing elit.</p>
+								</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Fim do conteudo primario -->
+			
+
+				<!-- Início da lateral -->
+				<div id="lateral">
+					<!-- Primeira caixa -->
+					<div class="caixa">
+						<h2>Entrevistas</h2>
+						<div class="caixa-conteudo">
+						<ul>
+							<li><a href="#">Robenildo Freitas de Jesus</a></li>
+							<li><a href="#">Leandro Ferreira Costa</a></li>
+							<li><a href="#">Claudio Rafael Almeida de Souza</a></li>
+							<li><a href="#">Caíque Silva Melo</a></li>
+							<li><a href="#">Lucimar Oliveira Carneiro da Silva</a></li>
+							<li><a href="#">Patricia Reis Moreira Sales</a></li>
+							<li><a href="#">Saverio Mário Giudice</a></li>
+							<li><a href="#">Ernesto Eduardo Britto Ribeiro</a></li>							
+						</ul>
+						</div>
+					</div >
+
+					<!-- Segunda caixa -->
+					<div class="caixa">
+						<h2>News</h2>
+						<div class="caixa-conteudo">
+							<form>
+								<div>
+									<label for="email">Email:</label>
+									<input type="text" name="email"
+									id="email" placeholder="E-mail" class="email-conteudo">
+								</div>
+								<div>
+									<input class="submit" type="submit" value="cadastrar" id="botao-conteudo">
+								</div>
+							</form>
+						</div> 
+					</div>
+				
+				</div>
+				<!-- Fim da lateral-->
+			</div>
+			<!-- Fim do conteudo -->
+
 		</div>
-		
 	</body>
 </html>
